@@ -1,0 +1,88 @@
+#navbar{
+    padding: 20px;
+    justify-content: space-around;
+    border: 20px;
+}
+
+.home{
+    color: pink;
+}
+
+.button1{
+    color: pink;
+    border-radius: 15px;
+}
+
+.button2{
+    color: white;
+    background-color: pink;
+    border-radius: 15px;
+}
+
+#skills{
+    color: rgb(14, 14, 102);
+
+}
+
+.hero{
+    color: rgb(139, 43, 59);
+}
+
+#explore{
+    color: rgb(119, 119, 153);
+}
+
+.button3{
+    color: rgb(189, 189, 218);
+    border-radius: 15px;
+}
+
+.button4{
+    color: white;
+    background-color: rgb(99, 35, 46);
+    border-radius: 15px;
+}
+
+#subscription{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.monthly{
+    color: rgb(206, 206, 228);
+}
+
+#gurantee{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.money{
+    color: rgb(203, 203, 235);
+}
+
+.subscribe{
+    display: flex;
+    padding: 20px;
+}
+
+#container1{
+    display: flex;
+}
+
+.microsoft{
+    color: rgb(144, 144, 177);
+}
+
+#icons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image1{
+    color: rgb(215, 215, 235);
+}
