@@ -1,81 +1,18 @@
 #navbar{
-    padding: 20px;
+    display: flex;
     justify-content: space-around;
-    border: 20px;
-}
-
-.home{
-    color: pink;
-}
-
-.button1{
-    color: pink;
-    border-radius: 15px;
-}
-
-.button2{
-    color: white;
-    background-color: pink;
-    border-radius: 15px;
-}
-
-#skills{
-    color: rgb(14, 14, 102);
-
 }
 
 .hero{
-    color: rgb(139, 43, 59);
-}
-
-#explore{
-    color: rgb(119, 119, 153);
-}
-
-.button3{
-    color: rgb(189, 189, 218);
-    border-radius: 15px;
-}
-
-.button4{
-    color: white;
-    background-color: rgb(99, 35, 46);
-    border-radius: 15px;
-}
-
-#subscription{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-
-}
-
-.monthly{
-    color: rgb(206, 206, 228);
-}
-
-#gurantee{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.money{
-    color: rgb(203, 203, 235);
-}
-
-.subscribe{
-    display: flex;
-    padding: 20px;
-}
-
-#container1{
+    color: palevioletred;
     display: flex;
 }
 
-.microsoft{
-    color: rgb(144, 144, 177);
+#hero{
+    display: flex;
 }
+
+
 
 #icons{
     display: flex;
@@ -83,6 +20,90 @@
     
 }
 
-.image1{
-    color: rgb(215, 215, 235);
+.button1{
+    border-radius: 98px;
+    border-color: rgb(219, 17, 84);
+    color: palevioletred;
 }
+.button2{
+    border-radius: 25px;
+    background-color: rgb(224, 73, 123);
+    color: white;
+}
+
+.home{
+    color: palevioletred;
+}
+
+.Superhero{
+    color: palevioletred;
+}
+
+.cont2{
+    color: rgb(13, 13, 121);
+    font-size: x-large;
+    font-weight: 1000;
+    padding: 24px, 24px;
+}
+
+.skills{
+    color: rgb(144, 144, 190);
+    font-size: larger;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+
+
+#subscribe{
+    display: flex;
+    color: rgb(180, 180, 196);
+}
+
+.money{
+    display: flex;
+    color: rgb(185, 185, 228);
+}
+
+#monthly{
+    display: flex;
+}
+
+#container1{
+    display: flex;
+    justify-items: flex-end;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+
+.input-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper input{
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(192, 192, 206);
+}
+
+.input-wrapper button{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    transform: translate(65%, 20%);
+    background-color:rgb(216, 21, 86);
+    color: white;
+    padding:12px 12px;
+    border-radius: 30px;
+    margin-left: 30%;
+}
+
+
+
+
