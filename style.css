@@ -1,12 +1,13 @@
-#navbar{
+
+ #navbar{
     display: flex;
     justify-content: space-around;
-}
+} 
 
-.hero{
+ .hero{
     color: palevioletred;
     display: flex;
-}
+} 
 
 #hero{
     display: flex;
@@ -65,6 +66,12 @@
     color: rgb(185, 185, 228);
 }
 
+
+.skillninja{
+   width:800px;
+   height: 700px; 
+}
+
 #monthly{
     display: flex;
 }
@@ -88,20 +95,63 @@
     padding: 20px;
     border-radius: 20px;
     color: rgb(192, 192, 206);
+    margin-right: -52%;
 }
 
 .input-wrapper button{
-    position: absolute;
-    top: 0%;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    transform: translate(65%, 20%);
     background-color:rgb(216, 21, 86);
     color: white;
-    padding:12px 12px;
+    padding:20px;
     border-radius: 30px;
-    margin-left: 30%;
+    margin-left: 85%;
+    margin-top: -90%;
+
+}
+
+
+@media screen and (min-width: 280px) and (max-width:320px){
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    .hero{
+        color: palevioletred;
+        display: flex;
+    } 
+
+    #hero{
+        display: flex;
+    }
+
+    #icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    #container1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skillninja img{
+        width:200px;
+        height: 150px; 
+        flex-wrap: wrap;
+     }
+    
+
+
+
+    
+
+    
+    
+
+    
+
+
 }
 
 
